@@ -4,7 +4,7 @@
 // via Wi-Fi, com o servidor web do ESP-32 definido como access-point
 // ------------------------------------------------------------------
 // Pressupõe um motor de passo 28byj-48 (motor n.0) conectado a CN1
-// Rede Wi-Fi criada com o nome PCI_UG_T1.h senha 00000000, acessível
+// Rede Wi-Fi criada com o nome PCI_UG_T1 senha 00000000, acessível
 // pelo IP 192.168.4.1 ou outro, informado pelo monitor serial
 // ------------------------------------------------------------------
 //
