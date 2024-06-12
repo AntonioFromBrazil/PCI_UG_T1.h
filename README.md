@@ -150,7 +150,7 @@ variável de controle temporal
 x.xms	quantidade desejada de milisegundos
 
 
-########################################################################################################<br><br>
+############################################################################################<br>
 Exemplos de utilização da biblioteca
 
 No início do programa:
@@ -234,8 +234,8 @@ x.ldur=250; x.linter=100; x.lnum=50;
 //via chamada convencional:
 x.stopLed();
 
-//via acesso direto as variáveis da biblioteca:
-x.lnum=0;
+//via acesso direto as variáveis da biblioteca: x.lnum=0;
+
 --------------------------------------------------------------------------------------------------------
 //contagem de 4 segundos, de forma assíncrona:
 
@@ -246,4 +246,4 @@ x.setms(4000);while (x.getms()>0){enquanto espera 4s, pode fazer coisas…}
 x.xms=4000; while (x.xms>0){enquanto espera 4s, pode fazer coisas…}
 //a variável x.xms começa a ser decrementada a cada um milisegundo imediatamente após ter sido inicializada
 
-########################################################################################################
+############################################################################################<br>
