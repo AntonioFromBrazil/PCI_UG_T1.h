@@ -45,15 +45,15 @@ void loop() {
 //  x.bdur=200; x.bfreq=2000; x.binter=100; x.bnum=2;
 //  x.ldur=100; x.linter=50; x.lnum=20;
 //
-//  digitalWrite(25,1);digitalWrite(26,1);
+//  digitalWrite(25,1);digitalWrite(26,1);                                    //vide .cpp 
 //  x.xveldc[2]=50; x.xcwdc[2]=1; x.xtime[2]=2000; 
 //  x.xveldc[3]=50; x.xcwdc[3]=0; x.xtime[3]=2000; 
 //
 //  if (x.xsteps[0]==0){
-//    digitalWrite(14,1);digitalWrite(15,1);
-//    x.xvelstep[0]=2; x.xvelnow[0]=2; x.xcwstep[0]=1;
-//    if (x.xcwstep[0]){x.xfase[0]=-1;}
-//    if (!x.xcwstep[0]){x.xfase[0]=4; if (x.xtipostep[0]==3){x.xfase[0]=8;}}
+//    digitalWrite(14,1);digitalWrite(15,1);                                  //vide .cpp
+//    x.xvelstep[0]=2; x.xvelnow[0]=2; x.xcwstep[0]=1;                        //vide .cpp   
+//    if (x.xcwstep[0]){x.xfase[0]=-1;}                                       //vide .cpp
+//    if (!x.xcwstep[0]){x.xfase[0]=4; if (x.xtipostep[0]==3){x.xfase[0]=8;}} //vide ;cpp
 //    x.xsteps[0]=2048;
 //  }
 //   
