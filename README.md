@@ -109,7 +109,7 @@ x.stopLed();
 
 esta função interrompe as piscadas do Led
 
-########################################################################################################
+########################################################################################################<br><br>
 Como alternativa para algumas das funções e comandos acima, pode-se acessar diretamente algumas variáveis internas da biblioteca. Entretanto, tais acessos se feitos de forma indevida, podem provocar erros e paradas inesperadas. Recomenda-se portanto que as variáveis relacionadas sejam acessadas diretamente apenas em último caso e apenas por programadores experientes:
 
 
@@ -150,7 +150,7 @@ variável de controle temporal
 x.xms	quantidade desejada de milisegundos
 
 
-########################################################################################################
+########################################################################################################<br><br>
 Exemplos de utilização da biblioteca
 
 No início do programa:
