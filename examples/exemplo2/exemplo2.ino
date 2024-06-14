@@ -118,7 +118,7 @@ void loop(){
             //starta o motor de acordo com o comando recebido
             if (graus!=555){
               while(x.xsteps[0]>0){}
-              if (graus==999){nsteps=2048000;}
+              if (graus==999){nsteps=2048000000;}
               if (graus!=999){nsteps=map(graus,0,360,0,2048);}
               if (sent=='D'){x.runStep(0, nsteps, vel, true);}else{x.runStep(0, nsteps, vel, false);}
             }  
