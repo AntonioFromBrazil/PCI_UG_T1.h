@@ -17,8 +17,6 @@ PCI_UG_T1 x(2, 0);   //indica motor de passo no modo 2 em CN1
 const char* ssid     = "PCI_UG_T1";
 const char* password = "00000000";
 
-#define LED_BUILTIN 0
-
 WiFiServer server(80);
 
 String header;
